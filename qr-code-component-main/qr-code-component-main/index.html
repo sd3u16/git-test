@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    *, *::before, *::after{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: #D5E1E5;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #card{
+      background-color: white;
+      width: 340px;
+      display: flex;
+      flex-direction: column;
+      padding: 1.2rem 2.2rem;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #card img{
+      max-width: 300px;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      
+    }
+
+    .cardo{
+      flex-grow: 2;
+    }
+
+    .cardo h2{
+      text-align: center;
+      margin-bottom: 1.2rem;
+      text-align: center;
+      color: #1f314f ;
+      font-family: 'Outfit', sans-serif;
+      
+    }
+
+    .cardo p{
+      text-align: center;
+      color: #68778d;
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div id="card">
+    <img src="./images/image-qr-code.png" alt="">
+    
+    <div class="cardo">
+      <h2>Improve your front-end skills by bulding projects</h2>
+
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+
+ 
+  
+  
+  
+</body>
+</html>
